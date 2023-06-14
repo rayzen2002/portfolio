@@ -2,9 +2,11 @@ import ProjectCard from '../components/ProjetctCard'
 
 export default function Projetos() {
   return (
-    <div className="mx-8 flex h-full w-full flex-col items-center justify-start gap-x-4">
-      <h1 className="col-span-3 ">Projetos</h1>
-      <div className="grid  h-5/6 w-full grid-cols-3 gap-4 bg-gray-800  ">
+    <div className="flex h-full w-full flex-col items-center justify-start gap-x-4 sm:mx-8">
+      <h1 className="col-span-3 py-4 text-5xl md:text-4xl xl:text-3xl">
+        Projetos
+      </h1>
+      <div className="grid  h-5/6 w-full grid-cols-1 gap-4 bg-gray-800 md:grid-cols-2 xl:grid-cols-3  ">
         <a href="https://neildota.vercel.app/">
           <ProjectCard
             title="NEIL Inhouse League"

@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="mx-96 flex h-[37.5vw] w-full  flex-col   justify-start gap-6 bg-gray-700 text-center">
+    <div className="mx-2 flex w-full  flex-col   gap-6 bg-gray-700 pb-8 text-center sm:mx-12">
       <div className="flex items-center justify-center gap-4 pt-12">
         <Image
           src="/emanuel.jpeg"
           alt="avatar"
           width={400}
           height={400}
-          className="h-52 w-52 rounded-full "
+          className="h-40 w-40 rounded-full sm:h-52 sm:w-52"
         />
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-bold text-white">Emanuel Magalhães</p>
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mx-8 text-left">
-        <p>
+        <p className="text-3xl sm:text-2xl">
           Estudante entusiasmado de Ciência da Computação, apaixonado por
           entender como tudo funciona e se conecta. Optei por me tornar um
           desenvolvedor Full Stack para explorar as complexidades e as
@@ -26,7 +26,7 @@ export default function Home() {
         </p>
         <br />
         <br />
-        <p>
+        <p className="text-2xl">
           Estou aberto a novas experiências que me permitam crescer
           profissionalmente e contribuir para projetos de sucesso. Fique à
           vontade para entrar em contato comigo para discutir oportunidades de

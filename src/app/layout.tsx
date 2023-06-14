@@ -10,13 +10,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className=" bg-gray-800">
-        <main className=" flex h-screen flex-col bg-gray-800">
-          <div className="flex h-36 w-full items-center justify-center gap-8 border-b-4 border-black bg-gray-800">
+        <main className=" flex min-h-screen flex-col bg-gray-800">
+          <div className="flex h-36 max-w-full items-center justify-center gap-8 border-b-4 border-black bg-gray-800 text-3xl md:text-2xl xl:text-xl ">
             <a href="/">Home</a>
             <a href="/projetos">Projetos</a>
             <a href="/about">Sobre</a>
           </div>
-          <div className="flex h-full w-full items-start justify-center rounded-xl pt-6">
+          <div className="flex min-h-0 max-w-full flex-1 items-start justify-center rounded-xl pt-6">
             {children}
           </div>
         </main>
