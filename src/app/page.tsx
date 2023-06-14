@@ -52,7 +52,7 @@ export default function Home() {
             alt="github"
             width={100}
             height={100}
-            className="h-12 w-12"
+            className="h-14 w-14"
           />
         </a>
         <a href="https://www.linkedin.com/in/emanuelmagalhaeszsmj/">
@@ -61,7 +61,7 @@ export default function Home() {
             alt="linkedin"
             width={100}
             height={100}
-            className="h-12 w-12"
+            className="h-14 w-14"
           />
         </a>
         <a href="https://steamcommunity.com/profiles/76561198140410716/">
@@ -70,7 +70,7 @@ export default function Home() {
             alt="steam"
             width={100}
             height={100}
-            className="h-12 w-12"
+            className="h-14 w-14"
           />
         </a>
         <a href="https://discord.gg/kHRBXuqxfA">
@@ -79,7 +79,7 @@ export default function Home() {
             alt="discord"
             width={100}
             height={100}
-            className="h-12 w-12"
+            className="h-14 w-14"
           />
         </a>
       </div>
