@@ -37,8 +37,8 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mx-8 flex h-10  w-40 items-center justify-center rounded-3xl bg-white">
-        <a href="/projetos" className=" text-2xl text-zinc-950">
+      <div className="mx-auto flex h-10 w-40  items-center justify-center rounded-3xl bg-white sm:mx-8">
+        <a href="/projetos" className="  text-2xl text-zinc-950 ">
           Projetos
         </a>
       </div>
