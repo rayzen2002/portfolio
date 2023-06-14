@@ -16,8 +16,8 @@ export default function Home() {
           <p className="text-xl  text-slate-400">Desenvolvedor Full Stack</p>
         </div>
       </div>
-      <div className="mx-8 text-left">
-        <p className="text-3xl sm:text-2xl">
+      <div className="mx-1 sm:mx-8 lg:text-left">
+        <p className="text-lg sm:text-xl">
           Estudante entusiasmado de Ciência da Computação, apaixonado por
           entender como tudo funciona e se conecta. Optei por me tornar um
           desenvolvedor Full Stack para explorar as complexidades e as
@@ -26,7 +26,7 @@ export default function Home() {
         </p>
         <br />
         <br />
-        <p className="text-3xl sm:text-2xl">
+        <p className="text-lg sm:text-xl">
           Estou aberto a novas experiências que me permitam crescer
           profissionalmente e contribuir para projetos de sucesso. Fique à
           vontade para entrar em contato comigo para discutir oportunidades de
