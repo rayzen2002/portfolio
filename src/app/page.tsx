@@ -3,13 +3,13 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className="mx-2 flex w-full  flex-col   gap-6 bg-gray-700 pb-8 text-center sm:mx-12">
-      <div className="flex items-center justify-center gap-4 pt-12">
+      <div className="flex flex-col items-center justify-center gap-4 pt-12 sm:flex-row">
         <Image
           src="/emanuel.jpeg"
           alt="avatar"
           width={400}
           height={400}
-          className="h-40 w-40 rounded-full sm:h-52 sm:w-52"
+          className="h-52 w-52 rounded-full"
         />
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-bold text-white">Emanuel Magalhães</p>
@@ -26,7 +26,7 @@ export default function Home() {
         </p>
         <br />
         <br />
-        <p className="text-2xl">
+        <p className="text-3xl sm:text-2xl">
           Estou aberto a novas experiências que me permitam crescer
           profissionalmente e contribuir para projetos de sucesso. Fique à
           vontade para entrar em contato comigo para discutir oportunidades de
@@ -37,13 +37,15 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mx-8 flex h-10  w-28 items-center justify-center rounded-3xl bg-white">
-        <a href="/projetos" className=" text-zinc-950">
+      <div className="mx-8 flex h-10  w-40 items-center justify-center rounded-3xl bg-white">
+        <a href="/projetos" className=" text-2xl text-zinc-950">
           Projetos
         </a>
       </div>
-      <p className="text-bold mx-8 text-left text-2xl">Meus Links</p>
-      <div className="mx-8  flex gap-4">
+      <p className="text-bold  mx-8 text-center text-3xl font-extrabold text-orange-500">
+        Meus Links
+      </p>
+      <div className="mx-8  flex justify-center gap-4">
         <a href="https://github.com/rayzen2002">
           <Image
             src="/github.svg"
