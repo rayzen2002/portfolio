@@ -7,6 +7,14 @@ export default function Projetos() {
         Projetos
       </h1>
       <div className="grid  h-5/6 w-full grid-cols-1 gap-4 bg-gray-800 md:grid-cols-2 xl:grid-cols-3  ">
+        <a href="https://github.com/rayzen2002/coders-acai/">
+          <ProjectCard
+            title="CODERS - Açai"
+            body="Aplicação backoffice de gestão de um negócio(ou uma rede) de distribuição de Açai, com controle de compras, vendas, estatísticas e relatórios."
+            image="/dash.png"
+            date="12 de Março de 2024"
+          />
+        </a>
         <a href="https://neildota.vercel.app/">
           <ProjectCard
             title="NEIL Inhouse League"
